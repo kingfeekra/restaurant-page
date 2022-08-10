@@ -22,7 +22,7 @@ var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "/* http://meyerweb.com/eric/tools/css/reset/ \n   v2.0 | 20110126\n   License: none (public domain)\n*/\n\nhtml, body, div, span, applet, object, iframe,\nh1, h2, h3, h4, h5, h6, p, blockquote, pre,\na, abbr, acronym, address, big, cite, code,\ndel, dfn, em, img, ins, kbd, q, s, samp,\nsmall, strike, strong, sub, sup, tt, var,\nb, u, i, center,\ndl, dt, dd, ol, ul, li,\nfieldset, form, label, legend,\ntable, caption, tbody, tfoot, thead, tr, th, td,\narticle, aside, canvas, details, embed, \nfigure, figcaption, footer, header, hgroup, \nmenu, nav, output, ruby, section, summary,\ntime, mark, audio, video {\n\tmargin: 0;\n\tpadding: 0;\n\tborder: 0;\n\tfont-size: 100%;\n\tfont: inherit;\n\tvertical-align: baseline;\n}\n/* HTML5 display-role reset for older browsers */\narticle, aside, details, figcaption, figure, \nfooter, header, hgroup, menu, nav, section {\n\tdisplay: block;\n}\nbody {\n\tline-height: 1;\n}\nol, ul {\n\tlist-style: none;\n}\nblockquote, q {\n\tquotes: none;\n}\nblockquote:before, blockquote:after,\nq:before, q:after {\n\tcontent: '';\n\tcontent: none;\n}\ntable {\n\tborder-collapse: collapse;\n\tborder-spacing: 0;\n}\n\nbody {\n    background: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n    background-size: cover;\n    background-repeat: no-repeat;\n    background-position: fixed;\n}\n\n#container {\n    display: flex;\n    flex-direction: column;\n}\n\n.header {\n    height: 75px;\n    width: auto;\n    background-color: azure;\n}\n\nmain {\n    display: flex;\n    justify-content: center;\n}\n\n.contentDiv {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n    width: 1000px;\n    height: auto;\n    background-color: aqua;\n}\n\n.poop {\n    color: red;\n}\n\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "/* http://meyerweb.com/eric/tools/css/reset/ \n   v2.0 | 20110126\n   License: none (public domain)\n*/\n\nhtml, body, div, span, applet, object, iframe,\nh1, h2, h3, h4, h5, h6, p, blockquote, pre,\na, abbr, acronym, address, big, cite, code,\ndel, dfn, em, img, ins, kbd, q, s, samp,\nsmall, strike, strong, sub, sup, tt, var,\nb, u, i, center,\ndl, dt, dd, ol, ul, li,\nfieldset, form, label, legend,\ntable, caption, tbody, tfoot, thead, tr, th, td,\narticle, aside, canvas, details, embed, \nfigure, figcaption, footer, header, hgroup, \nmenu, nav, output, ruby, section, summary,\ntime, mark, audio, video {\n\tmargin: 0;\n\tpadding: 0;\n\tborder: 0;\n\tfont-size: 100%;\n\tfont: inherit;\n\tvertical-align: baseline;\n}\n/* HTML5 display-role reset for older browsers */\narticle, aside, details, figcaption, figure, \nfooter, header, hgroup, menu, nav, section {\n\tdisplay: block;\n}\nbody {\n\tline-height: 1;\n}\nol, ul {\n\tlist-style: none;\n}\nblockquote, q {\n\tquotes: none;\n}\nblockquote:before, blockquote:after,\nq:before, q:after {\n\tcontent: '';\n\tcontent: none;\n}\ntable {\n\tborder-collapse: collapse;\n\tborder-spacing: 0;\n}\n\nbody {\n    background: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n    background-size: cover;\n    background-repeat: no-repeat;\n    background-position: fixed;\n}\n\n#container {\n    display: flex;\n    flex-direction: column;\n}\n\n.header {\n    height: 75px;\n    width: auto;\n    background-color: azure;\n}\n\nmain {\n    display: flex;\n    justify-content: center;\n}\n\n.contentDiv {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n    width: 1000px;\n    height: auto;\n    background-color: aqua;\n}\n\n.introDiv {\n\n}\n\n.hoursDiv {\n    text-align:center;\n}\n\n.poop {\n    color: red;\n}\n\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -689,6 +689,41 @@ const pageLoad = function() {
     topping tastes simply incredible. A marvellous pizza establishment.";
     introPara.classList.add("introPara");
     introDivSelect.appendChild(introPara);
+
+    const hoursDiv = document.createElement("div");
+    hoursDiv.classList.add("hoursDiv");
+    contentDivSelect.appendChild(hoursDiv);
+
+    const hoursDivSelect = document.querySelector(".hoursDiv");
+    const hoursHeading = document.createElement("h2");
+    hoursHeading.textContent = "Opening Hours";
+    hoursDivSelect.appendChild(hoursHeading);
+
+    const hoursList = document.createElement("ul");
+    for(let i = 0; i < 7; i++) {
+        const day = document.createElement("li");
+        hoursList.appendChild(day);
+    }
+    hoursDivSelect.appendChild(hoursList);
+
+    const listItems = document.querySelectorAll("li");
+    listItems[0].textContent = "Monday: 10am-9pm";
+    listItems[1].textContent = "Tuesday: 10am-9pm";
+    listItems[2].textContent = "Wednesday: 10am-9pm";
+    listItems[3].textContent = "Thursday: 10am-9pm";
+    listItems[4].textContent = "Friday: 10am-11pm";
+    listItems[5].textContent = "Saturday: 10am-11pm";
+    listItems[6].textContent = "Sunday: 10am-10pm";
+
+    const infoDiv = document.createElement("div");
+    infoDiv.classList.add("infoDiv");
+    contentDivSelect.appendChild(infoDiv);
+
+    const infoDivSelect = document.querySelector(".infoDiv");
+    const infoHeading = document.createElement("h2");
+    infoHeading.textContent = "Contact Info";
+    infoDivSelect.appendChild(infoHeading);
+
 
 }
 
