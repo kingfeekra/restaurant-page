@@ -724,7 +724,20 @@ const pageLoad = function() {
     infoHeading.textContent = "Contact Info";
     infoDivSelect.appendChild(infoHeading);
 
-
+    for(let i = 0; i < 3; i++) {
+        const div = document.createElement("div");
+        infoDivSelect.appendChild(div);
+        const heading = document.createElement("h3");
+        if(i == 2) {
+            const divSelect = document.querySelectorAll(".infoDiv > div");
+            for (let i = 0; i < 3; i++) {
+                const heading = document.createElement("h3");
+                divSelect[i].appendChild(heading);
+            }
+        }
+        
+    }
+    
 }
 
 
