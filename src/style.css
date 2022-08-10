@@ -80,6 +80,14 @@ main {
     background-color: aqua;
 }
 
+.introDiv {
+
+}
+
+.hoursDiv {
+    text-align:center;
+}
+
 .poop {
     color: red;
 }
