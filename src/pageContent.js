@@ -50,13 +50,13 @@ const pageLoad = function() {
     hoursDivSelect.appendChild(hoursList);
 
     const listItems = document.querySelectorAll("li");
-    listItems[0].textContent = "Monday: 10am-9pm";
-    listItems[1].textContent = "Tuesday: 10am-9pm";
-    listItems[2].textContent = "Wednesday: 10am-9pm";
-    listItems[3].textContent = "Thursday: 10am-9pm";
-    listItems[4].textContent = "Friday: 10am-11pm";
-    listItems[5].textContent = "Saturday: 10am-11pm";
-    listItems[6].textContent = "Sunday: 10am-10pm";
+    listItems[0].textContent = "Monday: 10am - 9pm";
+    listItems[1].textContent = "Tuesday: 10am - 9pm";
+    listItems[2].textContent = "Wednesday: 10am - 9pm";
+    listItems[3].textContent = "Thursday: 10am - 9pm";
+    listItems[4].textContent = "Friday: 10am - 11pm";
+    listItems[5].textContent = "Saturday: 10am - 11pm";
+    listItems[6].textContent = "Sunday: 10am - 10pm";
 
     const infoDiv = document.createElement("div");
     infoDiv.classList.add("infoDiv");
@@ -77,6 +77,22 @@ const pageLoad = function() {
                 const heading = document.createElement("h3");
                 divSelect[i].appendChild(heading);
             }
+            const headingSelect = document.querySelectorAll("h3");
+            headingSelect[0].textContent = "Location";
+            headingSelect[1].textContent = "Phone Number";
+            headingSelect[2].textContent = "Email Address";
+
+            const address = document.createElement("address");
+            address.textContent = "123 Pizza Street, Galway, Ireland";
+            divSelect[0].appendChild(address);
+
+            const phoneNumber = document.createElement("p");
+            phoneNumber.textContent = "0861234567";
+            divSelect[1].appendChild(phoneNumber);
+
+            const email = document.createElement("p");
+            email.textContent = "info@feekraspizzaexpress.com";
+            divSelect[2].appendChild(email);
         }
         
     }
