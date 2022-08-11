@@ -70,6 +70,18 @@ body {
     height: 75px;
     width: auto;
     background-color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navList {
+    display: flex;
+    font-size: 1.3rem;
+}
+
+.navList > li {
+    margin: 20px;
 }
 
 main {

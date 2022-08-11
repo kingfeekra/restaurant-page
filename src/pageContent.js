@@ -1,9 +1,43 @@
 const container = document.querySelector("#container");
 
-const pageLoad = function() {
+function pageLoad() {
     const header = document.createElement("div");
     header.classList.add("header");
     container.appendChild(header);
+
+    const headerSelect = document.querySelector(".header");
+    const nav = document.createElement("nav");
+    nav.classList.add("navMenu");
+    headerSelect.appendChild(nav);
+
+    const navSelect = document.querySelector(".navMenu");
+    const navList = document.createElement("ul");
+    navList.classList.add("navList");
+    navSelect.appendChild(navList);
+
+    const navListSelect = document.querySelector(".navList");
+    for(let i = 0; i < 3; i++) {
+        const navItem = document.createElement("li");
+        navListSelect.appendChild(navItem);
+        if(i == 2) {
+            const navItemSelect = document.querySelectorAll(".navList > li");
+            navItemSelect[0].textContent = "Home";
+            navItemSelect[1].textContent = "Menu";
+            navItemSelect[2].textContent = "Contact Us";
+
+            navItemSelect[0].onclick = function() {
+                pageLoad();
+            };
+            navItemSelect[1].onclick = function() {
+                menuLoad();
+            };
+            navItemSelect[2].onclick = function() {
+                contactLoad();
+            };
+            
+        }
+    }
+
 
     const main = document.createElement("main"); 
     container.appendChild(main);
@@ -49,7 +83,7 @@ const pageLoad = function() {
     }
     hoursDivSelect.appendChild(hoursList);
 
-    const listItems = document.querySelectorAll("li");
+    const listItems = document.querySelectorAll(".hoursDiv > ul > li");
     listItems[0].textContent = "Monday: 10am - 9pm";
     listItems[1].textContent = "Tuesday: 10am - 9pm";
     listItems[2].textContent = "Wednesday: 10am - 9pm";
@@ -97,6 +131,15 @@ const pageLoad = function() {
         
     }
     
+}
+
+function menuLoad() {
+    const contentDiv = document.querySelector(".contentDiv");
+    contentDiv.textContent = "";
+}
+
+function contactLoad() {
+
 }
 
 
