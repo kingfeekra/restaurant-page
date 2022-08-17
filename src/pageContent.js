@@ -1,3 +1,5 @@
+import { menuLoad } from "./pizzaMenu";
+
 const container = document.querySelector("#container");
 
 function pageLoad() {
@@ -133,10 +135,7 @@ function pageLoad() {
     
 }
 
-function menuLoad() {
-    const contentDiv = document.querySelector(".contentDiv");
-    contentDiv.textContent = "";
-}
+
 
 function contactLoad() {
 

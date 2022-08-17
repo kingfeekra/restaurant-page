@@ -24,7 +24,7 @@ var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBP
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
 var ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_1___);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "/* http://meyerweb.com/eric/tools/css/reset/ \n   v2.0 | 20110126\n   License: none (public domain)\n*/\n\nhtml, body, div, span, applet, object, iframe,\nh1, h2, h3, h4, h5, h6, p, blockquote, pre,\na, abbr, acronym, address, big, cite, code,\ndel, dfn, em, img, ins, kbd, q, s, samp,\nsmall, strike, strong, sub, sup, tt, var,\nb, u, i, center,\ndl, dt, dd, ol, ul, li,\nfieldset, form, label, legend,\ntable, caption, tbody, tfoot, thead, tr, th, td,\narticle, aside, canvas, details, embed, \nfigure, figcaption, footer, header, hgroup, \nmenu, nav, output, ruby, section, summary,\ntime, mark, audio, video {\n\tmargin: 0;\n\tpadding: 0;\n\tborder: 0;\n\tfont-size: 100%;\n\tfont: inherit;\n\tvertical-align: baseline;\n}\n/* HTML5 display-role reset for older browsers */\narticle, aside, details, figcaption, figure, \nfooter, header, hgroup, menu, nav, section {\n\tdisplay: block;\n}\nbody {\n\tline-height: 1;\n}\nol, ul {\n\tlist-style: none;\n}\nblockquote, q {\n\tquotes: none;\n}\nblockquote:before, blockquote:after,\nq:before, q:after {\n\tcontent: '';\n\tcontent: none;\n}\ntable {\n\tborder-collapse: collapse;\n\tborder-spacing: 0;\n}\n\n@font-face {\n    font-family: customFont;\n    src: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n}\n\nbody {\n    font-family: customFont;\n    background: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ");\n    background-size: cover;\n    background-repeat: no-repeat;\n    background-position: fixed;\n}\n\n#container {\n    display:flex;\n    flex-direction: column;\n    min-height: 100vh;\n}\n\n.header {\n    height: 75px;\n    width: auto;\n    background-color: azure;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n}\n\n.navList {\n    display: flex;\n    font-size: 1.3rem;\n}\n\n.navList > li {\n    margin: 20px;\n}\n\nmain {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    margin: auto;\n}\n\n.contentDiv {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n    width: 1000px;\n    height: auto;\n    background-color: aqua;\n}\n\n.contentDiv > * {\n    margin-bottom: 20px;\n    font-size: 1.2rem;\n}\n\n.contentDiv > h1 {\n    margin-top: 20px;\n    font-size: 2rem;\n}\n\n.introDiv {\n    width: 70%;\n}\n\n.hoursDiv {\n    text-align:center;\n}\n\n.infoDiv {\n    text-align: center;\n}\n\n.poop {\n    color: red;\n}\n\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "/* http://meyerweb.com/eric/tools/css/reset/ \n   v2.0 | 20110126\n   License: none (public domain)\n*/\n\nhtml, body, div, span, applet, object, iframe,\nh1, h2, h3, h4, h5, h6, p, blockquote, pre,\na, abbr, acronym, address, big, cite, code,\ndel, dfn, em, img, ins, kbd, q, s, samp,\nsmall, strike, strong, sub, sup, tt, var,\nb, u, i, center,\ndl, dt, dd, ol, ul, li,\nfieldset, form, label, legend,\ntable, caption, tbody, tfoot, thead, tr, th, td,\narticle, aside, canvas, details, embed, \nfigure, figcaption, footer, header, hgroup, \nmenu, nav, output, ruby, section, summary,\ntime, mark, audio, video {\n\tmargin: 0;\n\tpadding: 0;\n\tborder: 0;\n\tfont-size: 100%;\n\tfont: inherit;\n\tvertical-align: baseline;\n}\n/* HTML5 display-role reset for older browsers */\narticle, aside, details, figcaption, figure, \nfooter, header, hgroup, menu, nav, section {\n\tdisplay: block;\n}\nbody {\n\tline-height: 1;\n}\nol, ul {\n\tlist-style: none;\n}\nblockquote, q {\n\tquotes: none;\n}\nblockquote:before, blockquote:after,\nq:before, q:after {\n\tcontent: '';\n\tcontent: none;\n}\ntable {\n\tborder-collapse: collapse;\n\tborder-spacing: 0;\n}\n\n@font-face {\n    font-family: customFont;\n    src: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n}\n\nbody {\n    font-family: customFont;\n    background: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ");\n    background-size: cover;\n    background-repeat: no-repeat;\n    background-position: fixed;\n}\n\n#container {\n    display:flex;\n    flex-direction: column;\n    min-height: 100vh;\n}\n\n.header {\n    height: 75px;\n    width: auto;\n    background-color: azure;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n}\n\n.navList {\n    display: flex;\n    font-size: 1.3rem;\n}\n\n.navList > li {\n    margin: 20px;\n}\n\nmain {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    margin: auto;\n}\n\n.contentDiv {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n    width: 1000px;\n    height: auto;\n    background-color: rgb(0, 0, 0, 0.7);\n    color: white;\n}\n\n.contentDiv > * {\n    margin-bottom: 20px;\n    font-size: 1.2rem;\n}\n\n.contentDiv > h1 {\n    margin-top: 20px;\n    font-size: 2rem;\n}\n\n.introDiv {\n    width: 70%;\n}\n\n.hoursDiv {\n    text-align:center;\n}\n\n.infoDiv {\n    text-align: center;\n}\n\n.poop {\n    color: red;\n}\n\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -663,7 +663,93 @@ var update = injectStylesIntoStyleTag_default()(style/* default */.Z, options);
 
        /* harmony default export */ const src_style = (style/* default */.Z && style/* default.locals */.Z.locals ? style/* default.locals */.Z.locals : undefined);
 
+;// CONCATENATED MODULE: ./src/pizzaMenu.js
+const menu = (() => {
+
+    const createMenuDivs = function() {
+        const contentDiv = document.querySelector(".contentDiv");
+        contentDiv.textContent = "";
+        for(let i = 0; i < 6; i++) {
+            const menuDiv = document.createElement("div");
+            menuDiv.classList.add("menuItem");
+            contentDiv.appendChild(menuDiv);
+        }
+    }
+    const createMenuItems = function() {
+        const menuItemSelect = document.querySelectorAll(".menuItem");
+            for(let i = 0; i < 6; i++) {
+                const pizzaName = document.createElement("h2");
+                pizzaName.classList.add("pizzaName");
+                menuItemSelect[i].appendChild(pizzaName);
+
+                const ingredients = document.createElement("p");
+                ingredients.classList.add("ingredients");
+                menuItemSelect[i].appendChild(ingredients);
+
+                const price = document.createElement("p");
+                price.classList.add("price");
+                menuItemSelect[i].appendChild(price);
+            }
+    }
+
+    const setPizzaNames = function() {
+        const pizzaList = document.querySelectorAll(".pizzaName");
+        pizzaList[0].textContent = "Margherita";
+        pizzaList[1].textContent = "Pepperoni";
+        pizzaList[2].textContent = "Hawaiian";
+        pizzaList[3].textContent = "Meat Feast";
+        pizzaList[4].textContent = "Doner Pizza";
+        pizzaList[5].textContent = "Vegetarian Delight";
+    }
+    const setIngredients = function() {
+        const ingredientsList = document.querySelectorAll(".ingredients");
+        ingredientsList[0].textContent = "Cheese & tomato.";
+        ingredientsList[1].textContent = "Pepperoni, green peppers & Italian herbs.";
+        ingredientsList[2].textContent = "Ham & pineapple.";
+        ingredientsList[3].textContent = "Pepperoni, salami, ham & donner meat.";
+        ingredientsList[4].textContent = "Donner meat & onions.";
+        ingredientsList[5].textContent = "Mushroom, peppers, onion, sweetcorn & olives.";
+    }
+    const setPrice = function() {
+        const priceList = document.querySelectorAll(".price");
+        priceList[0].textContent = "$7";
+        priceList[1].textContent = "$9";
+        priceList[2].textContent = "$9";
+        priceList[3].textContent = "$10";
+        priceList[4].textContent = "$10";
+        priceList[5].textContent = "$10";
+    }
+    return {
+        createMenuDivs: function() {
+            createMenuDivs();
+        },
+        createMenuItems: function() {
+            createMenuItems();
+        },
+        setPizzaNames: function() {
+            setPizzaNames();
+        },
+        setIngredients: function() {
+            setIngredients();
+        },
+        setPrice: function() {
+            setPrice();
+        }
+    }
+})()
+
+function menuLoad() {
+    menu.createMenuDivs();
+    menu.createMenuItems();
+    menu.setPizzaNames();
+    menu.setIngredients();
+    menu.setPrice();
+}
+
+
 ;// CONCATENATED MODULE: ./src/pageContent.js
+
+
 const container = document.querySelector("#container");
 
 function pageLoad() {
@@ -799,10 +885,7 @@ function pageLoad() {
     
 }
 
-function menuLoad() {
-    const contentDiv = document.querySelector(".contentDiv");
-    contentDiv.textContent = "";
-}
+
 
 function contactLoad() {
 

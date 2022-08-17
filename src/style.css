@@ -98,7 +98,8 @@ main {
     align-items: center;
     width: 1000px;
     height: auto;
-    background-color: aqua;
+    background-color: rgb(0, 0, 0, 0.7);
+    color: white;
 }
 
 .contentDiv > * {
