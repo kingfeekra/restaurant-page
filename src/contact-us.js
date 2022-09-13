@@ -3,6 +3,11 @@ const contact = (() => {
     const createDivs = function() {
         const contentDiv = document.querySelector(".contentDiv");
         contentDiv.textContent = "";
+
+        const heading = document.createElement("h1");
+        heading.textContent = "Contact Us";
+        contentDiv.appendChild(heading);
+
         for(let i = 0; i < 3; i++) {
             const div = document.createElement("div");
             div.classList.add("contactUsItem");
@@ -29,8 +34,8 @@ const contact = (() => {
     const setDescription = function() {
         const descriptionList = document.querySelectorAll(".contactUsItem > p");
         descriptionList[0].textContent = "0861234567";
-        descriptionList[1].textContent = "123 Pizza Street, Galway, Ireland";
-        descriptionList[2].textContent = "info@feekraspizzaexpress.com";
+        descriptionList[1].textContent = "info@feekraspizzaexpress.com";
+        descriptionList[2].textContent = "123 Pizza Street, Galway, Ireland";
     }
 
     return {

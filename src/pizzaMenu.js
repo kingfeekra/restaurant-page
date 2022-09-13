@@ -3,6 +3,11 @@ const menu = (() => {
     const createMenuDivs = function() {
         const contentDiv = document.querySelector(".contentDiv");
         contentDiv.textContent = "";
+
+        const heading = document.createElement("h1");
+        heading.textContent = "Menu";
+        contentDiv.appendChild(heading);
+        
         for(let i = 0; i < 6; i++) {
             const menuDiv = document.createElement("div");
             menuDiv.classList.add("menuItem");

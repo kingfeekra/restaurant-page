@@ -4,7 +4,19 @@ import { contactLoad } from "./contact-us";
 const container = document.querySelector("#container");
 
 const page = (() => {
+    
+    const clearPage = function() {
+        if(container.textContent !== "") {
+            container.textContent = "";
+        }
+    }
+
     const createHeader = function() {
+        if(document.querySelector(".contentDiv")) {
+            const contentDiv = document.querySelector(".contentDiv");
+            contentDiv.textContent = "";
+        }
+        
         const header = document.createElement("div");
         header.classList.add("header");
         container.appendChild(header);
@@ -143,6 +155,9 @@ const page = (() => {
         }
     }
     return {
+        clearPage : function() {
+            clearPage();
+        },
         createHeader: function() {
             createHeader();
         },
@@ -165,6 +180,7 @@ const page = (() => {
 })()
 
 function pageLoad() {
+    page.clearPage();
     page.createHeader();
     page.createNavMenu();
     page.createContentSection();
