@@ -24,7 +24,7 @@ var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBP
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
 var ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_1___);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "/* http://meyerweb.com/eric/tools/css/reset/ \n   v2.0 | 20110126\n   License: none (public domain)\n*/\n\nhtml, body, div, span, applet, object, iframe,\nh1, h2, h3, h4, h5, h6, p, blockquote, pre,\na, abbr, acronym, address, big, cite, code,\ndel, dfn, em, img, ins, kbd, q, s, samp,\nsmall, strike, strong, sub, sup, tt, var,\nb, u, i, center,\ndl, dt, dd, ol, ul, li,\nfieldset, form, label, legend,\ntable, caption, tbody, tfoot, thead, tr, th, td,\narticle, aside, canvas, details, embed, \nfigure, figcaption, footer, header, hgroup, \nmenu, nav, output, ruby, section, summary,\ntime, mark, audio, video {\n\tmargin: 0;\n\tpadding: 0;\n\tborder: 0;\n\tfont-size: 100%;\n\tfont: inherit;\n\tvertical-align: baseline;\n}\n/* HTML5 display-role reset for older browsers */\narticle, aside, details, figcaption, figure, \nfooter, header, hgroup, menu, nav, section {\n\tdisplay: block;\n}\nbody {\n\tline-height: 1;\n}\nol, ul {\n\tlist-style: none;\n}\nblockquote, q {\n\tquotes: none;\n}\nblockquote:before, blockquote:after,\nq:before, q:after {\n\tcontent: '';\n\tcontent: none;\n}\ntable {\n\tborder-collapse: collapse;\n\tborder-spacing: 0;\n}\n\n@font-face {\n    font-family: customFont;\n    src: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n}\n\nbody {\n    font-family: customFont;\n    background: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ");\n    background-size: cover;\n    background-repeat: no-repeat;\n    background-position: fixed;\n}\n\n#container {\n    display:flex;\n    flex-direction: column;\n    min-height: 100vh;\n}\n\n.header {\n    height: 75px;\n    width: auto;\n    background-color: azure;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n}\n\n.navList {\n    display: flex;\n    font-size: 1.3rem;\n}\n\n.navList > li {\n    margin: 20px;\n}\n\nmain {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    margin: auto;\n}\n\n.contentDiv {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n    width: 1000px;\n    height: auto;\n    background-color: rgb(0, 0, 0, 0.7);\n    color: white;\n}\n\n.contentDiv > * {\n    margin-bottom: 20px;\n    font-size: 1.2rem;\n}\n\n.contentDiv > h1 {\n    margin-top: 20px;\n    font-size: 2rem;\n}\n\n.introDiv {\n    width: 70%;\n}\n\n.hoursDiv {\n    text-align:center;\n}\n\n.infoDiv {\n    text-align: center;\n}\n\n.poop {\n    color: red;\n}\n\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "/* http://meyerweb.com/eric/tools/css/reset/ \n   v2.0 | 20110126\n   License: none (public domain)\n*/\n\nhtml, body, div, span, applet, object, iframe,\nh1, h2, h3, h4, h5, h6, p, blockquote, pre,\na, abbr, acronym, address, big, cite, code,\ndel, dfn, em, img, ins, kbd, q, s, samp,\nsmall, strike, strong, sub, sup, tt, var,\nb, u, i, center,\ndl, dt, dd, ol, ul, li,\nfieldset, form, label, legend,\ntable, caption, tbody, tfoot, thead, tr, th, td,\narticle, aside, canvas, details, embed, \nfigure, figcaption, footer, header, hgroup, \nmenu, nav, output, ruby, section, summary,\ntime, mark, audio, video {\n\tmargin: 0;\n\tpadding: 0;\n\tborder: 0;\n\tfont-size: 100%;\n\tfont: inherit;\n\tvertical-align: baseline;\n}\n/* HTML5 display-role reset for older browsers */\narticle, aside, details, figcaption, figure, \nfooter, header, hgroup, menu, nav, section {\n\tdisplay: block;\n}\nbody {\n\tline-height: 1;\n}\nol, ul {\n\tlist-style: none;\n}\nblockquote, q {\n\tquotes: none;\n}\nblockquote:before, blockquote:after,\nq:before, q:after {\n\tcontent: '';\n\tcontent: none;\n}\ntable {\n\tborder-collapse: collapse;\n\tborder-spacing: 0;\n}\n\n@font-face {\n    font-family: customFont;\n    src: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n}\n\nbody {\n    font-family: customFont;\n    background: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ");\n    background-size: cover;\n    background-repeat: no-repeat;\n    background-position: fixed;\n}\n\n#container {\n    display:flex;\n    flex-direction: column;\n    min-height: 100vh;\n}\n\n.header {\n    height: 75px;\n    width: auto;\n    background-color: azure;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n}\n\n.navList {\n    display: flex;\n    font-size: 1.3rem;\n}\n\n.navList > li {\n    margin: 20px;\n    cursor: pointer;\n}\n\nmain {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    margin: auto;\n}\n\n.contentDiv {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n    width: 1000px;\n    height: auto;\n    background-color: rgb(0, 0, 0, 0.7);\n    color: white;\n    line-height: 1.2;\n}\n\n.contentDiv > * {\n    margin-bottom: 20px;\n    font-size: 1.2rem;\n}\n\n.contentDiv > h1 {\n    margin-top: 20px;\n    font-size: 2.5rem;\n    border-bottom: 3px solid white;\n}\n\nh2 {\n    font-style: italic;\n    font-size: 1.5rem;\n}\n\n.menuItem, .contactUsItem {\n    text-align: center;\n}\n\n.introDiv {\n    width: 70%;\n}\n\n.hoursDiv {\n    text-align:center;\n}\n\n.infoDiv {\n    text-align: center;\n}\n\n.poop {\n    color: red;\n}\n\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -669,6 +669,11 @@ const menu = (() => {
     const createMenuDivs = function() {
         const contentDiv = document.querySelector(".contentDiv");
         contentDiv.textContent = "";
+
+        const heading = document.createElement("h1");
+        heading.textContent = "Menu";
+        contentDiv.appendChild(heading);
+        
         for(let i = 0; i < 6; i++) {
             const menuDiv = document.createElement("div");
             menuDiv.classList.add("menuItem");
@@ -753,6 +758,11 @@ const contact = (() => {
     const createDivs = function() {
         const contentDiv = document.querySelector(".contentDiv");
         contentDiv.textContent = "";
+
+        const heading = document.createElement("h1");
+        heading.textContent = "Contact Us";
+        contentDiv.appendChild(heading);
+
         for(let i = 0; i < 3; i++) {
             const div = document.createElement("div");
             div.classList.add("contactUsItem");
@@ -779,8 +789,8 @@ const contact = (() => {
     const setDescription = function() {
         const descriptionList = document.querySelectorAll(".contactUsItem > p");
         descriptionList[0].textContent = "0861234567";
-        descriptionList[1].textContent = "123 Pizza Street, Galway, Ireland";
-        descriptionList[2].textContent = "info@feekraspizzaexpress.com";
+        descriptionList[1].textContent = "info@feekraspizzaexpress.com";
+        descriptionList[2].textContent = "123 Pizza Street, Galway, Ireland";
     }
 
     return {
@@ -814,7 +824,19 @@ function contactLoad() {
 const container = document.querySelector("#container");
 
 const page = (() => {
+    
+    const clearPage = function() {
+        if(container.textContent !== "") {
+            container.textContent = "";
+        }
+    }
+
     const createHeader = function() {
+        if(document.querySelector(".contentDiv")) {
+            const contentDiv = document.querySelector(".contentDiv");
+            contentDiv.textContent = "";
+        }
+        
         const header = document.createElement("div");
         header.classList.add("header");
         container.appendChild(header);
@@ -953,6 +975,9 @@ const page = (() => {
         }
     }
     return {
+        clearPage : function() {
+            clearPage();
+        },
         createHeader: function() {
             createHeader();
         },
@@ -975,6 +1000,7 @@ const page = (() => {
 })()
 
 function pageLoad() {
+    page.clearPage();
     page.createHeader();
     page.createNavMenu();
     page.createContentSection();
